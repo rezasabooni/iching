@@ -103,4 +103,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 - **Reza Sabooni** - [reza.sabooni@gmail.com](mailto:reza.sabooni@gmail.com)
-```
