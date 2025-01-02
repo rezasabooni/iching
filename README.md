@@ -100,6 +100,7 @@ This package contains the `iching` script as a `.deb` file.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<> ## Author
+<!-- ## Author
 
-<> - **Reza Sabooni** - [reza.sabooni@gmail.com](mailto:reza.sabooni@gmail.com)
+- **Reza Sabooni** - [reza.sabooni@gmail.com](mailto:reza.sabooni@gmail.com)
+-->
