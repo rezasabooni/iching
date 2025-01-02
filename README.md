@@ -1,4 +1,3 @@
-```markdown
 # I Ching Hexagram Generator
 
 A simple I Ching hexagram generator written in Bash. This script generates a random hexagram by selecting from the 64 hexagrams of the I Ching, providing both the symbol and name of the hexagram.
