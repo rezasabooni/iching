@@ -84,14 +84,14 @@ iching version 1.0
 ```
 ## Usage Examples for Python Version of I Ching Hexagram Generator
 
-## 1. Generate a Random Hexagram
+### 1. Generate a Random Hexagram
 
 To generate a random I Ching hexagram, simply run the Python script:
 
 ```bash
 python3 iching.py
 ```
-## 2. Show Help Information
+### 2. Show Help Information
 
 To display help information, use the `-h` or `--help` option:
 
@@ -99,7 +99,7 @@ To display help information, use the `-h` or `--help` option:
 python3 iching.py -h
 ```
 
-### Example Output:
+#### Example Output:
 ```bash
 I Ching Hexagram Generator (Python Script)
 --------------------------------------------
@@ -118,7 +118,7 @@ Package Information:
   Description: A simple I Ching hexagram generator in Python.
 ```
 
-## 3. Show Version Information
+### 3. Show Version Information
 
 To show the script version, use the `-v` or `--version` option:
 
@@ -126,7 +126,7 @@ To show the script version, use the `-v` or `--version` option:
 python3 iching.py -v
 ```
 
-### Example Output:
+#### Example Output:
 ```bash
 iching version 1.0
 ```
