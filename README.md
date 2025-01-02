@@ -82,7 +82,7 @@ Example output:
 ```
 iching version 1.0
 ```
-# Usage Examples for Python Version of I Ching Hexagram Generator
+## Usage Examples for Python Version of I Ching Hexagram Generator
 
 ## 1. Generate a Random Hexagram
 
