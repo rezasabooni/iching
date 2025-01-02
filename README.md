@@ -93,12 +93,12 @@ This package contains the `iching` script as a `.deb` file.
 - **Priority**: optional
 - **Architecture**: amd64
 - **Depends**: bash
-- **Maintainer**: Reza Sabooni <reza.sabooni@gmail.com>
+- **Maintainer**: Reza Sabooni <!--<reza.sabooni@gmail.com>-->
 - **Description**: A simple I Ching hexagram generator in Bash.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 <!-- ## Author
 
