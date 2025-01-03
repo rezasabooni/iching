@@ -22,8 +22,8 @@ To use this script, you need to have **Bash** installed on your system.
 You can clone this repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/iching-package.git
-cd iching-package
+git clone https://github.com/rezasabooni/iching
+cd iching
 ```
 
 ### 2. Run the Script Directly
