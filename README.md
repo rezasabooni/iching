@@ -8,6 +8,11 @@ A simple I Ching hexagram generator written in Bash. This script generates a ran
 - Displays the hexagram number, symbol, and name.
 - Supports help and version options.
 
+- **Random Hexagram Generation**:  
+  The script uses Linux's built-in `RANDOM` function to generate a random hexagram from the I Ching.  
+- **Seeding**:  
+  To enhance randomness, the script (iching_urandom_seed) initializes the `RANDOM` generator using a seed derived from `/dev/urandom`.
+
 ## Installation
 
 To use this script, you need to have **Bash** installed on your system.
