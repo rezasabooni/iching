@@ -39,28 +39,6 @@ iching --help         # Help
 iching --version      # Version
 ```
 
-## Example Output
-
-```
-════════════════════════════════════════════════════════════
-                      I CHING READING
-  Monday, June 9, 2025 — 14:32 UTC
-════════════════════════════════════════════════════════════
-  Primary Hexagram
-  Number:  42
-  Symbol:  ䷩
-  Name:    Increase
-
-  Lines (top → bottom):
-    Line 6: -------
-    Line 5: --- o ---  (changing yang)
-    Line 4: ---   ---
-    Line 3: -------
-    Line 2: -------
-    Line 1: ---   ---
-...
-```
-
 ## License
 
 MIT © Reza Sabooni
