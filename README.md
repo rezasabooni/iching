@@ -1,5 +1,3 @@
-# README
-
 ```markdown
 # 易 iching — I Ching Hexagram Generator
 
