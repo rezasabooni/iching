@@ -1,159 +1,70 @@
-# I Ching Hexagram Generator
+# README
 
-A simple I Ching hexagram generator written in Bash. This script generates a random hexagram by selecting from the 64 hexagrams of the I Ching, providing both the symbol and name of the hexagram.
+```markdown
+# 易 iching — I Ching Hexagram Generator
+
+A Bash terminal oracle that simulates the traditional **three-coin method**
+to generate I Ching hexagrams — complete with changing lines,
+relating hexagrams, judgments, and images.
 
 ## Features
 
-- Generates a random I Ching hexagram.
-- Displays the hexagram number, symbol, and name.
-- Supports help and version options.
+- 🪙 Authentic three-coin toss simulation (values 6–9)
+- ☯ Changing lines with relating (transformed) hexagram
+- 📖 Judgment & Image text for all 64 hexagrams
+- 🔍 Look up any hexagram by number
+- 📋 List all 64 hexagrams
+- 🔄 Interactive oracle mode
+- 🎨 Color terminal output
 
-- **Random Hexagram Generation**:  
-  The script uses Linux's built-in `RANDOM` function to generate a random hexagram from the I Ching.  
-- **Seeding**:  
-  To enhance randomness, the script (iching_urandom_seed) initializes the `RANDOM` generator using a seed derived from `/dev/urandom`.
+## Requirements
+
+- Bash ≥ 4.0
+- A UTF-8 capable terminal
 
 ## Installation
 
-To use this script, you need to have **Bash** installed on your system.
-
-### 1. Clone the Repository
-
-You can clone this repository to your local machine using Git:
-
 ```bash
-git clone https://github.com/rezasabooni/iching
+git clone https://github.com/yourname/iching.git
 cd iching
-```
-
-### 2. Run the Script Directly
-
-The script does not require any installation. You can run it directly from the terminal.
-
-```bash
 chmod +x iching.sh
-./iching.sh
+sudo cp iching.sh /usr/local/bin/iching
 ```
 
-### 3. Install the Debian Package
-
-If you prefer, you can install the package as a `.deb` file (Debian/Ubuntu-based systems).
-
-- Download the `.deb` package
-- Install the package using `dpkg`:
-
-```bash
-sudo dpkg -i iching-package.deb
-```
 ## Usage
 
-### Generate a Random Hexagram
-
-To generate a random I Ching hexagram, simply run the script:
-
 ```bash
-./iching.sh
+iching                # Single reading
+iching -i             # Interactive mode
+iching -n 42          # Look up hexagram 42
+iching --list         # List all 64 hexagrams
+iching --help         # Help
+iching --version      # Version
 ```
 
-This will output a random hexagram number, its symbol, and its name.
-
-Example output:
+## Example Output
 
 ```
-Hexagram Number: 9
-Hexagram: ䷈ Small Taming
+════════════════════════════════════════════════════════════
+                      I CHING READING
+  Monday, June 9, 2025 — 14:32 UTC
+════════════════════════════════════════════════════════════
+  Primary Hexagram
+  Number:  42
+  Symbol:  ䷩
+  Name:    Increase
+
+  Lines (top → bottom):
+    Line 6: -------
+    Line 5: --- o ---  (changing yang)
+    Line 4: ---   ---
+    Line 3: -------
+    Line 2: -------
+    Line 1: ---   ---
+...
 ```
-
-### Show Help Information
-
-To display help information, use the `-h` or `--help` option:
-
-```bash
-./iching.sh -h
-```
-
-This will show detailed information about the script, including available options and package details.
-
-### Show Version Information
-
-To show the script version, use the `-v` or `--version` option:
-
-```bash
-./iching.sh -v
-```
-
-Example output:
-
-```
-iching version 1.0
-```
-## Usage Examples for Python Version of I Ching Hexagram Generator
-
-### 1. Generate a Random Hexagram
-
-To generate a random I Ching hexagram, simply run the Python script:
-
-```bash
-python3 iching.py
-```
-### 2. Show Help Information
-
-To display help information, use the `-h` or `--help` option:
-
-```bash
-python3 iching.py -h
-```
-
-#### Example Output:
-```bash
-I Ching Hexagram Generator (Python Script)
---------------------------------------------
-
-Usage: python iching.py [OPTIONS]
-
-Generate a random I Ching hexagram.
-
-OPTIONS:
-  -h, --help       Show this help message and package information.
-  -v, --version    Show the script version.
-
-Package Information:
-  Package: iching
-  Version: 1.0
-  Description: A simple I Ching hexagram generator in Python.
-```
-
-### 3. Show Version Information
-
-To show the script version, use the `-v` or `--version` option:
-
-```bash
-python3 iching.py -v
-```
-
-#### Example Output:
-```bash
-iching version 1.0
-```
-
-## Package Information
-
-This package contains the `iching` script as a `.deb` file.
-
-- **Package**: iching
-- **Version**: 1.0
-- **Section**: utils
-- **Priority**: optional
-- **Architecture**: amd64
-- **Depends**: bash
-- **Maintainer**: Reza Sabooni <!--<reza.sabooni@gmail.com>-->
-- **Description**: A simple I Ching hexagram generator in Bash.
 
 ## License
 
-This project is licensed under the MIT License.
-
-<!-- ## Author
-
-- **Reza Sabooni** - [reza.sabooni@gmail.com](mailto:reza.sabooni@gmail.com)
--->
+MIT © Reza Sabooni
+```
