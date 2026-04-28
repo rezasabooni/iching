@@ -1,4 +1,3 @@
-```markdown
 # 易 iching — I Ching Hexagram Generator
 
 A Bash terminal oracle that simulates the traditional **three-coin method**
@@ -60,7 +59,6 @@ iching --version      # Version
     Line 2: -------
     Line 1: ---   ---
 ...
-```
 
 ## License
 
